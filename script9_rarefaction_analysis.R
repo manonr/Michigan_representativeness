@@ -19,7 +19,7 @@ library(devtools)
 library(iNEXT) 
 library(ggplot2)
 
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/Representativeness/state_analysis_functions.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/state_analysis_functions.R")
 
 setwd("/Users/manonragonnet/Library/CloudStorage/OneDrive-Personal/Projects/LauringLab/Representativeness/haplo_stats3")
 

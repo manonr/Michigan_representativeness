@@ -27,10 +27,9 @@ library(ggpubr)
 library(readr)
 library(reshape2)
 library(tibble)
-library(Biostrings)
 
 
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/cleanUS_states.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/cleanUS_states.R")
 
 transform_auspice_df <- function(auspice_file = "auspicedf.json.tsv"){
   

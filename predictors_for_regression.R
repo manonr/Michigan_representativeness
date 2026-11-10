@@ -19,7 +19,7 @@ library(tigris)
 
 
 setwd("/Users/manonragonnet/Library/CloudStorage/OneDrive-Personal/Projects/LauringLab/Representativeness/")
-source("/Users/manonragonnet/Library/CloudStorage/OneDrive-Personal/Github/Michigan_rep/R_Michigan/Representativeness/functions_pick_strains_functions.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/functions_pick_strains_functions.R")
 
 #what I want to add to the dataframe
 # I need to generate some daily epi counts of epidemics size

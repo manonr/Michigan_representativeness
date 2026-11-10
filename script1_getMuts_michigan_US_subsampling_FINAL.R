@@ -25,7 +25,6 @@ library(reshape2)
 library(lubridate)
 library(tibble)
 library(readr)
-library(Biostrings)
 
 # First, use auspice to convert json to dataframe
 # # # in terminal
@@ -39,7 +38,7 @@ library(Biostrings)
 rootDir <- paste0("/Users/manonragonnet/OneDrive/Projects/LauringLab/Representativeness/")
 setwd(rootDir)
 
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/Representativeness/functions_pick_strains_functions.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/functions_pick_strains_functions.R")
 
 subtypes <- c("H1", "H3")
 

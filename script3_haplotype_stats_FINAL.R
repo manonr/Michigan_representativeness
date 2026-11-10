@@ -15,7 +15,7 @@
 
 # now with version for reps/ without reps
 
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/functions_pick_strains_functions.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/functions_pick_strains_functions.R")
 
 
 # haplotype stats

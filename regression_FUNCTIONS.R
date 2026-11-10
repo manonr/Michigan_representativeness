@@ -38,8 +38,8 @@ suppressPackageStartupMessages({
 # - forestPlot()          (for logistic)
 # - forest_plot_lm()      (for linear)
 
-# source(".../plot_functions.R")
-# source(".../functions_pick_strains_functions.R")
+# source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/plot_functions.R")
+# source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/functions_pick_strains_functions.R")
 
 
 # -----------------------------

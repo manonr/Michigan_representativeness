@@ -15,8 +15,8 @@ library(lubridate)
 library(gtools)
 
 
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/cleanUS_states.R")
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/functions_pick_strains_functions.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/cleanUS_states.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/functions_pick_strains_functions.R")
 
 setwd("/Users/manonragonnet/OneDrive/Projects/LauringLab/Representativeness/raw_data_Oct1/") 
 

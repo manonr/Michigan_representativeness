@@ -26,8 +26,8 @@ library(pracma)
 library(stringr)
 library(lme4)
 
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/Representativeness/functions_pick_strains_functions.R")
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/Representativeness/state_analysis_functions.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/functions_pick_strains_functions.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/state_analysis_functions.R")
 
 
 rootDir <- paste0("/Users/manonragonnet/OneDrive/Projects/LauringLab/Representativeness/haplo_stats3/stateProxyAnalysis/")

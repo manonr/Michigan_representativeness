@@ -21,9 +21,9 @@ library(stringr)
 rootDir <- "/Users/manonragonnet/Library/CloudStorage/OneDrive-Personal/Projects/LauringLab/Representativeness/haplo_stats3"
 
 # source your helper functions
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/Representativeness/plot_functions.R")
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/Representativeness/functions_pick_strains_functions.R")
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/Representativeness/regression_FUNCTIONS.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/plot_functions.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/functions_pick_strains_functions.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/regression_FUNCTIONS.R")
 
 
 pattern_main = "haploDF_noMich"

@@ -31,7 +31,6 @@ library(reshape2)
 library(lubridate)
 library(tibble)
 library(readr)
-library(Biostrings)
 library(purrr)
 library(pracma) 
 
@@ -39,9 +38,9 @@ library(pracma)
 rootDir <- paste0("/Users/manonragonnet/OneDrive/Projects/LauringLab/Representativeness/haplo_stats3/")
 setwd(rootDir)
 
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/functions_pick_strains_functions.R")
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/plot_functions.R")
-source("/Users/manonragonnet/OneDrive/Github/Michigan_rep/R_Michigan/state_analysis_functions.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/functions_pick_strains_functions.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/plot_functions.R")
+source("/Users/manonragonnet/Documents/GitHub/Michigan_representativeness/state_analysis_functions.R")
 
 
 
@@ -103,7 +102,7 @@ for (subtype in subtypes){
           
           ##entropy
           #if(length(seasonMutDF2$HAH3muts[seasonMutDF2$UMich=="UMich"])>0){
-          # UMichHaplos <- as.matrix(AAStringSet(seasonMutDF2$HAH3muts[seasonMutDF2$UMich=="UMich"]))
+          # UMichHaplos <- do.call(rbind, strsplit(seasonMutDF2$HAH3muts[seasonMutDF2$UMich=="UMich"], ""))
           #  UMichEntropy <- round(mean(apply(UMichHaplos, 2, entropyFct)),3)
           #} else {
           #  UMichHaplos <- 0
@@ -111,8 +110,8 @@ for (subtype in subtypes){
           #}
           
           
-          #otherHaplos <- as.matrix(AAStringSet(seasonMutDF2$HAH3muts[seasonMutDF2$UMich=="notUOM"]))
-          allHaplos <- as.matrix(AAStringSet(seasonMutDF2$HAH3muts))
+          #otherHaplos <- do.call(rbind, strsplit(seasonMutDF2$HAH3muts[seasonMutDF2$UMich=="notUOM"], ""))
+          allHaplos <- do.call(rbind, strsplit(seasonMutDF2$HAH3muts, ""))
           
           #nonMichEntropy <- round(mean(apply(otherHaplos, 2, entropyFct)),3)
           #allEntropy <- round(mean(apply(allHaplos, 2, entropyFct)),3)
